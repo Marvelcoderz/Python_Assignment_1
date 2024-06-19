@@ -1,0 +1,7 @@
+f = open("C:/Users/sudhi/OneDrive/Desktop/New folder/demo.txt",'r')
+data = f.read()
+f.close()
+f1 = open("C:/Users/sudhi/OneDrive/Desktop/New folder/demo.txt",'w')
+f1.writelines(data)
+print("The data has been written successfully into this file.")
+f1.close()
